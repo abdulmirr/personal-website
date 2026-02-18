@@ -35,23 +35,10 @@ body {
     padding: 2rem 1.5rem;
 }
 
-/* Fade-in Animation */
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-        transform: translateY(10px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
+/* Page Layout */
 .container {
     max-width: 620px;
     width: 100%;
-    animation: fadeIn 1s ease-out forwards;
     padding-top: 4rem;
     /* Default for home */
 }
@@ -132,7 +119,7 @@ body {
 
 /* Separator */
 .separator-container {
-    padding: 3rem 0;
+    padding: 0 0 3rem 0;
 }
 
 .separator {
@@ -299,7 +286,7 @@ body {
     }
 
     .separator-container {
-        padding: 2rem 0;
+        padding: 0 0 2rem 0;
     }
 
     .page-about {
